@@ -82,25 +82,8 @@
               <th scope="col">기타</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>네트워크미디어와 인간관계 / 김은미</td>
-              <td>Zoom 회의 아이디 : 266-616-9320<br>참가 URL : <a href="https://zoom.us/j/2666169320">https://zoom.us/j/2666169320</a></td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>정보문화세미나 / 김은미</td>
-              <td>Zoom 회의 아이디 : 266-616-9320<br>참가 URL : <a href="https://zoom.us/j/2666169320">https://zoom.us/j/2666169320</a></td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
+          <tbody id="classes">
+
           </tbody>
         </table>
 
@@ -117,9 +100,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="web-src/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <!--<script>window.jQuery || document.write('<script src="web-src/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>-->
+    <script>window.jQuery || document.write('<script src="web-src/assets/js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
     <script src="web-src/assets/js/vendor/popper.min.js"></script>
     <script src="web-src/dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+         $('#classes').load('comm_inc.html');
+    </script>
   </body>
 </html>
